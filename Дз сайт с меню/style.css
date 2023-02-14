@@ -1,0 +1,39 @@
+body{
+    background: rgb(235, 235, 235);
+}
+.sidenav{
+    background-color: rgb(44, 59, 102);
+    height: 100%;
+    width: 200px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+}
+.sidenav li{
+    list-style-type: none;
+    text-align: center;
+    border: 2px white solid;
+    margin-bottom: 10px;
+    width: 150px;
+
+}
+.sidenav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.sidenav a:hover{
+    color: red
+}
+.sidenav li:hover{
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+.maincontent p{
+    margin-left: 220px;
+    padding-left: 10px;
+    text-align: justify;
+}
